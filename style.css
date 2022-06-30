@@ -1,0 +1,31 @@
+.main-title{
+	display: block;
+	text-align: center;
+}
+.btn{
+	border: none;
+	outline: none;
+	border-radius: 0;
+	background: linear-gradient(160deg,#B72A6B,#8D2053);
+}
+.results{
+	position: relative;
+	padding: 1.5rem 2.5rem;
+	background: linear-gradient(160deg,#B72A6B,#8D2053);
+	text-align: center;
+	color: #fff;
+}
+.results .vilka{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.results .vilka span{
+	font-size: 36px;
+}
+.results .vilka span.dotts{
+	position: relative;
+	width: 100px;
+	border-bottom: 3px dotted #fff;
+	margin: 0 1rem;
+}

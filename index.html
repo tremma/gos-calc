@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Калькулятор</title>
+	     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="main-title mb-4">Калькулятор</h1>
+		<div class="row">
+			<div class="inputs col-lg-6 col-md-12 mb-4 mb-lg-0">
+			<div class="mb-4">
+			  <label for="total" class="form-label">Тотал</label>
+			  <input type="number" class="form-control" id="total" placeholder="общая сумма">
+			</div>
+			<div class="mb-4">
+			  <label for="users" class="form-label">Участники</label>
+			  <input type="number" class="form-control" id="users" placeholder="колл-во участников">
+			</div>
+			<button id="result-btn" class="btn btn-success">Посчитать</button>
+			</div>
+			<div class="results col-lg-6 col-md-12 mb-4 mb-lg-0">
+				<h2>Вилка</h2>
+				<div class="vilka">
+					<span class="min">0</span>
+					<span class="dotts"></span>
+					<span class="max">0</span>
+				</div>
+				<div class="test-out"></div>
+			</div>
+		</div>	
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
